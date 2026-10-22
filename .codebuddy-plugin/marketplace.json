@@ -1,0 +1,11 @@
+{
+  "name": "overseas-creators-marketplace",
+  "description": "Shared marketplace for the Overseas Omni-Channel Social Media Team expert (overseas-creators).",
+  "plugins": [
+    {
+      "name": "overseas-creators",
+      "source": "./plugins/overseas-creators",
+      "description": "Overseas omni-channel social media team for content matrix and personal IP incubation across YouTube, TikTok, X and Facebook."
+    }
+  ]
+}
