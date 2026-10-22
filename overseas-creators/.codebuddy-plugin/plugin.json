@@ -1,0 +1,120 @@
+{
+  "name": "overseas-creators",
+  "version": "1.0.0",
+  "description": "Overseas omni-channel social media team for content matrix and personal IP incubation across YouTube, TikTok, X and Facebook.",
+  "author": {
+    "name": "WorkBuddy Expert",
+    "email": "expert@workbuddy.ai"
+  },
+  "agents": [
+    "./agents/overseas-creators-team-lead.md",
+    "./agents/trend-culturalist.md",
+    "./agents/content-strategist.md",
+    "./agents/script-copywriter.md",
+    "./agents/visual-designer.md",
+    "./agents/video-editor.md",
+    "./agents/growth-analyst.md",
+    "./agents/community-manager.md"
+  ],
+  "expertType": "team",
+  "agentName": "overseas-creators-team-lead",
+  "teamInfo": {
+    "leadAgent": "overseas-creators-team-lead",
+    "memberAgents": [
+      "trend-culturalist",
+      "content-strategist",
+      "script-copywriter",
+      "visual-designer",
+      "video-editor",
+      "growth-analyst",
+      "community-manager"
+    ]
+  },
+  "displayName": {
+    "en": "Overseas Omni-Channel Social Media Team",
+    "zh": "海外全网络自媒体运营团"
+  },
+  "profession": {
+    "en": "Overseas Omni-Channel Social Media Team",
+    "zh": "海外全网络自媒体运营团"
+  },
+  "displayDescription": {
+    "en": "Overseas omni-channel social media team for content matrix and personal IP incubation across YouTube, TikTok, X and Facebook.",
+    "zh": "专注海外社媒内容矩阵与个人IP孵化：以图文为核心、视频为氛围化表达，统一多平台改编与中英双语产出。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "zh": "帮我规划一个跨 YouTube/TikTok/X/Facebook 的月度内容矩阵，以图文为核心",
+    "en": "Plan a monthly cross-platform content matrix across YouTube/TikTok/X/Facebook with text-image as the core."
+  },
+  "plugin": "overseas-creators",
+  "tags": [
+    { "en": "Overseas Social Media", "zh": "海外社媒运营" },
+    { "en": "Content Matrix", "zh": "内容矩阵" },
+    { "en": "IP Incubation", "zh": "IP孵化" }
+  ],
+  "quickPrompts": [
+    { "en": "Plan a monthly cross-platform content matrix across YouTube/TikTok/X/Facebook with text-image as the core.", "zh": "帮我规划一个跨 YouTube/TikTok/X/Facebook 的月度内容矩阵，以图文为核心" },
+    { "en": "Write an X(Twitter) text-image thread for my IP and derive a TikTok short-video script from it.", "zh": "为我的 IP 写一篇 X(Twitter) 图文 thread，并派生一个 TikTok 短视频脚本" },
+    { "en": "Review last week's cross-platform data and give optimization advice for next week's text-image and video content.", "zh": "复盘上周各平台数据，给出下周图文与视频的优化建议" }
+  ],
+  "members": [
+    {
+      "id": "overseas-creators-team-lead",
+      "displayName": { "en": "Ji", "zh": "纪策远" },
+      "profession": { "en": "IP Chief Strategist", "zh": "IP 总策略师" },
+      "avatar": "avatars/overseas-creators-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "trend-culturalist",
+      "displayName": { "en": "Wei", "zh": "韦风宜" },
+      "profession": { "en": "Trend & Cultural Fit Officer", "zh": "海外趋势与文化适配官" },
+      "avatar": "avatars/trend-culturalist.png",
+      "role": "member"
+    },
+    {
+      "id": "content-strategist",
+      "displayName": { "en": "Su", "zh": "苏策源" },
+      "profession": { "en": "Content Strategist", "zh": "内容策划官" },
+      "avatar": "avatars/content-strategist.png",
+      "role": "member"
+    },
+    {
+      "id": "script-copywriter",
+      "displayName": { "en": "Mo", "zh": "墨成文" },
+      "profession": { "en": "Script & Copywriter", "zh": "脚本与文案师" },
+      "avatar": "avatars/script-copywriter.png",
+      "role": "member"
+    },
+    {
+      "id": "visual-designer",
+      "displayName": { "en": "Yan", "zh": "颜如画" },
+      "profession": { "en": "Visual Designer", "zh": "视觉设计师" },
+      "avatar": "avatars/visual-designer.png",
+      "role": "member"
+    },
+    {
+      "id": "video-editor",
+      "displayName": { "en": "Zhen", "zh": "帧流光" },
+      "profession": { "en": "Video Editor", "zh": "视频剪辑师" },
+      "avatar": "avatars/video-editor.png",
+      "role": "member"
+    },
+    {
+      "id": "growth-analyst",
+      "displayName": { "en": "Guan", "zh": "观数明" },
+      "profession": { "en": "Growth & Data Analyst", "zh": "数据分析增长官" },
+      "avatar": "avatars/growth-analyst.png",
+      "role": "member"
+    },
+    {
+      "id": "community-manager",
+      "displayName": { "en": "Mu", "zh": "睦邻友" },
+      "profession": { "en": "Community Manager", "zh": "社区运营官" },
+      "avatar": "avatars/community-manager.png",
+      "role": "member"
+    }
+  ]
+}
